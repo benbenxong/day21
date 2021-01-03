@@ -38,9 +38,6 @@
       (when (not (package-installed-p pkg))
         (package-install pkg))))
 
-(global-set-key (kbd "C-+") 'text-scale-increase)
-(global-set-key (kbd "C--") 'text-scale-decrease)
-(global-set-key (kbd "C-0") 'text-scale-adjust)
 
 
 ;; let emacs could find the execuable
