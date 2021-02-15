@@ -21,7 +21,8 @@
 				   nodejs-repl
 				   exec-path-from-shell
 				   popwin
-				   
+				   w3m
+				   slime-company
 				   )  "Default packages")
 
 (setq package-selected-packages zilongshanren/packages)

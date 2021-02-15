@@ -1,0 +1,17 @@
+
+;; ----- smex-history -----
+(
+ cider-jack-in
+ line-number-mode
+ cd
+ 5x5
+ arp
+ dbx
+ dig
+)
+
+;; ----- smex-data -----
+(
+ (line-number-mode . 2)
+ (cider-jack-in . 1)
+)

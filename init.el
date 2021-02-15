@@ -15,7 +15,9 @@
 (require 'init-org)
 (require 'init-keybindings)
 
-(setq custom-file (expand-file-name "lisp/custom.el" user-emacs-directory))
+(require 'init-lisp)
 
+(setq custom-file (expand-file-name "lisp/custom.el" user-emacs-directory))
+ (sp-local-pair 'emacs-lisp-mode "'" nil :actions nil)
 (load-file custom-file)
 
